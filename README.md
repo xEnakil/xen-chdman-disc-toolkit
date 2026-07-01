@@ -1,12 +1,19 @@
-# CHDMAN Batch Converter
+# CHDMAN Disc Toolkit
 
-Simple Windows batch scripts for converting disc images to CHD format and extracting CHD files back to CUE/BIN using MAME's `chdman` tool.
+Windows helper scripts for converting disc images to CHD format, extracting CHD files back to CUE/BIN, and eventually organizing multi-disc games with emulator-ready M3U playlists using MAME's `chdman` tool.
 
 ## What it does
 
 - Converts `.cue`, `.gdi`, and `.iso` files from a `Games` folder into `.chd` files in a `Compressed` folder.
 - Converts `.cue` files in the current folder tree to `.chd`.
 - Extracts `.chd` files in the current folder tree back to `.cue`/`.bin`.
+
+## Planned features
+
+- Detect and organize multi-disc games automatically.
+- Create one folder per game when needed.
+- Generate `.m3u` playlists for multi-disc games.
+- Improve naming and output structure for emulator libraries.
 
 ## Files
 
