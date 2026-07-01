@@ -1,0 +1,20 @@
+# Local input/output disc images
+Games/
+Compressed/
+*.bin
+*.cue
+*.gdi
+*.iso
+*.chd
+*.ccd
+*.img
+*.sub
+*.toc
+*.raw
+
+# Local CHDMAN binary. Download it from MAME and place it beside the scripts.
+chdman.exe
+
+# Windows noise
+Thumbs.db
+Desktop.ini
